@@ -13,7 +13,7 @@ fig=px.bar(grouped,x='General Address',y='Price Per SQMT',
 )
 
 fig.update_layout(height=600,template='plotly_dark')
-fig.update_layout(title=dict(text='Median Apartment Prices Per SQMT By Month And City Part',font_family='Arial Black',font_size=15))
+fig.update_layout(title=dict(text='Median Apartment Prices Per SQMT By City Part',font_family='Arial Black',font_size=15))
 fig2=fig
 
 print('Finished Figure_2')
