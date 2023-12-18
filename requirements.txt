@@ -2,6 +2,6 @@ gunicorn
 pandas
 numpy
 plotly
-dash==2.6.0
+dash
 datetime
 
