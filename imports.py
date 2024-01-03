@@ -21,9 +21,9 @@ app = dash.Dash(__name__)
 server=app.server
 
 
-intro_text="""👋 Welcome to my personal project : Tbilisi Apartment Prices Analysis - Dashboard which provides analtical insights on Tbilisi apartment prices by city part, constraction status and renovation condition. 
+intro_text="""👋 Welcome to my personal project : Tbilisi Apartment Prices Analysis - Dashboard which provides analtical insights into Tbilisi apartment prices by city part, constraction status and renovation condition. 
 
-The data is scraped from famous Georgian online real estate marketplace using python's BeautifulSoup and Selenium liabraries.
-The dashboard and graphs are powered by python's dash and plotly liabraries.
+The data is scraped from famous Georgian online real estate marketplace using python's BeautifulSoup and Selenium libraries.
+The dashboard and graphs are powered by python's dash and plotly libraries.
         
 For other projects, feel free to visit my Github account 👀 : https://github.com/beridzeg45"""
